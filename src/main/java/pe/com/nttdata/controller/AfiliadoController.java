@@ -15,7 +15,7 @@ public class AfiliadoController {
     @Autowired
     IAfiliadoService service;
 
-    @GetMapping
+    @GetMappingdmasm
     public Flux<Afiliado> listarAfiliados(){
         return service.getAfiliado();
     }
