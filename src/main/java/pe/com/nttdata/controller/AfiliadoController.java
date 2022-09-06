@@ -19,4 +19,9 @@ public class AfiliadoController {
     public Flux<Afiliado> listarAfiliados(){
         return service.getAfiliado();
     }
+
+    @GetMapping("/afiliado2")
+    public Flux<Afiliado> listarAfiliados2(){
+        return service.getAfiliado();
+    }
 }
