@@ -9,7 +9,7 @@ import pe.com.nttdata.service.IAfiliadoService;
 import reactor.core.publisher.Flux;
 
 @RestController
-@RequestMapping("/afiliado")
+@RequestMapping("/afiliados")
 public class AfiliadoController {
 
     @Autowired
